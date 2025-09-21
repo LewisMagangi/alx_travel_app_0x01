@@ -1,4 +1,4 @@
-# ALX Travel App
+# ALX Travel App 0x00
 
 A comprehensive Django-based travel listing platform with robust API documentation and database configuration.
 
@@ -20,7 +20,7 @@ A comprehensive Django-based travel listing platform with robust API documentati
 
 ## 🚀 About the Project
 
-The **alx_travel_app** project is a real-world Django application that serves as the foundation for a travel listing platform. This milestone focuses on setting up the initial project structure, configuring a robust database, and integrating tools to ensure API documentation and maintainable configurations.
+The **alx_travel_app_0x00** project is a real-world Django application that serves as the foundation for a travel listing platform. This milestone focuses on setting up the initial project structure, configuring a robust database, and integrating tools to ensure API documentation and maintainable configurations.
 
 The aim is to equip learners with industry-standard best practices for starting and managing Django-based projects efficiently. This milestone teaches you to set up a scalable backend, integrate MySQL for database management, and use Swagger for automated API documentation.
 
@@ -29,17 +29,21 @@ The aim is to equip learners with industry-standard best practices for starting 
 As a professional developer, this task will enable you to:
 
 ### Master Advanced Project Initialization
+
 - Learn to bootstrap Django projects with modular, production-ready configurations
 - Employ environment variable management for secure and scalable settings
 
 ### Integrate Key Developer Tools
+
 - Set up and use Swagger (via drf-yasg) for API documentation
 - Implement CORS headers and MySQL configurations for robust API interactions
 
 ### Collaborate Effectively Using Git
+
 - Structure your projects for team collaboration with a version-controlled setup
 
 ### Adopt Industry Best Practices
+
 - Follow best practices in managing dependencies, database configurations, and application structure
 
 ## ✨ Features
@@ -81,12 +85,14 @@ Before you begin, ensure you have the following installed:
 ## 🔧 Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/LewisMagangi/alx_travel_app.git
    cd alx_travel_app
    ```
 
 2. **Create and activate virtual environment**
+
    ```bash
    # Windows
    python -m venv venv
@@ -98,6 +104,7 @@ Before you begin, ensure you have the following installed:
    ```
 
 3. **Install dependencies**
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -105,12 +112,14 @@ Before you begin, ensure you have the following installed:
 ## ⚙️ Configuration
 
 1. **Create environment file**
+
    ```bash
    cp .env.example .env
    ```
 
 2. **Configure environment variables**
    Edit the `.env` file with your specific configurations:
+
    ```env
    # Django Settings
    SECRET_KEY=your-secret-key-here
@@ -144,6 +153,7 @@ The API documentation is automatically generated using Swagger and is available 
 - **JSON Schema**: `http://localhost:8000/swagger.json`
 
 ### Key Features of API Documentation:
+
 - Interactive API testing interface
 - Automatic schema generation
 - Request/response examples
@@ -153,22 +163,26 @@ The API documentation is automatically generated using Swagger and is available 
 ## 🗄️ Database Setup
 
 1. **Create MySQL database**
+
    ```sql
    CREATE DATABASE alx_travel_app CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
    ```
 
 2. **Run migrations**
+
    ```bash
    python manage.py makemigrations
    python manage.py migrate
    ```
 
 3. **Create superuser (optional)**
+
    ```bash
    python manage.py createsuperuser
    ```
 
 4. **Load initial data (if available)**
+
    ```bash
    python manage.py loaddata fixtures/initial_data.json
    ```
@@ -176,6 +190,7 @@ The API documentation is automatically generated using Swagger and is available 
 ## 🚀 Running the Application
 
 1. **Start the development server**
+
    ```bash
    python manage.py runserver
    ```
@@ -186,18 +201,21 @@ The API documentation is automatically generated using Swagger and is available 
    - API documentation: `http://localhost:8000/swagger/`
 
 3. **Start Celery worker (for background tasks)**
+
    ```bash
    celery -A alx_travel_app worker --loglevel=info
    ```
 
 4. **Start Celery beat (for scheduled tasks)**
+
    ```bash
+
    celery -A alx_travel_app beat --loglevel=info
    ```
 
 ## 📁 Project Structure
 
-```
+``` text
 alx_travel_app/
 ├── alx_travel_app/          # Main project directory
 │   ├── __init__.py
@@ -228,7 +246,8 @@ alx_travel_app/
 ## 🔧 Key Configuration Files
 
 ### Dependencies (requirements.txt)
-```
+
+``` text
 django>=4.2.0,<5.0.0
 djangorestframework>=3.14.0
 django-cors-headers>=4.0.0
@@ -240,6 +259,7 @@ redis>=4.5.0
 ```
 
 ### Environment Variables (.env)
+
 - `SECRET_KEY`: Django secret key
 - `DEBUG`: Debug mode setting
 - `DB_NAME`, `DB_USER`, `DB_PASSWORD`: Database credentials
@@ -248,6 +268,7 @@ redis>=4.5.0
 ## 🧪 Testing
 
 Run the test suite:
+
 ```bash
 # Run all tests
 python manage.py test
@@ -263,6 +284,7 @@ coverage report
 ## 🚀 Deployment
 
 ### Production Checklist
+
 - [ ] Set `DEBUG=False` in production
 - [ ] Configure proper `ALLOWED_HOSTS`
 - [ ] Set up static file serving
@@ -272,7 +294,9 @@ coverage report
 - [ ] Set up monitoring and error tracking
 
 ### Environment-Specific Settings
+
 Create separate settings files for different environments:
+
 - `settings/development.py`
 - `settings/staging.py`
 - `settings/production.py`
@@ -286,6 +310,7 @@ Create separate settings files for different environments:
 5. Open a Pull Request
 
 ### Coding Standards
+
 - Follow PEP 8 style guide
 - Write comprehensive tests
 - Update documentation for new features
