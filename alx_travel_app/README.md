@@ -1,23 +1,22 @@
-
 # ALX Travel App 0x00
 
 A comprehensive Django-based travel listing platform with robust API documentation and database configuration.
 
 ## 📋 Table of Contents
 
-- [About the Project](#about-the-project)
-- [Learning Objectives](#learning-objectives)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [API Documentation](#api-documentation)
-- [Database Setup](#database-setup)
-- [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [About the Project](#-about-the-project)
+- [Learning Objectives](#-learning-objectives)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Configuration](#️-configuration)
+- [API Documentation](#-api-documentation)
+- [Database Setup](#️-database-setup)
+- [Running the Application](#-running-the-application)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 🚀 About the Project
 
@@ -153,7 +152,7 @@ The API documentation is automatically generated using Swagger and is available 
 - **ReDoc**: `http://localhost:8000/redoc/`
 - **JSON Schema**: `http://localhost:8000/swagger.json`
 
-### Key Features of API Documentation:
+### Key Features of API Documentation
 
 - Interactive API testing interface
 - Automatic schema generation

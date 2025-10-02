@@ -4,19 +4,19 @@ A comprehensive Django-based travel listing platform with robust API documentati
 
 ## 📋 Table of Contents
 
-- [About the Project](#about-the-project)
-- [Learning Objectives](#learning-objectives)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [API Documentation](#api-documentation)
-- [Database Setup](#database-setup)
-- [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [About the Project](#-about-the-project)
+- [Learning Objectives](#-learning-objectives)
+- [Features](#-features)
+- [Technology Stack](#-technology-stack)
+- [Prerequisites](#-prerequisites)
+- [Installation](#-installation)
+- [Configuration](#️-configuration)
+- [API Documentation](#-api-documentation)
+- [Database Setup](#️-database-setup)
+- [Running the Application](#-running-the-application)
+- [Project Structure](#-project-structure)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 🚀 About the Project
 
@@ -152,7 +152,7 @@ The API documentation is automatically generated using Swagger and is available 
 - **ReDoc**: `http://localhost:8000/redoc/`
 - **JSON Schema**: `http://localhost:8000/swagger.json`
 
-### Key Features of API Documentation:
+### Key Features of API Documentation
 
 - Interactive API testing interface
 - Automatic schema generation
@@ -223,7 +223,7 @@ alx_travel_app/
 │   ├── urls.py              # Main URL configuration
 │   ├── wsgi.py              # WSGI configuration
 │   └── asgi.py              # ASGI configuration
-├── listings/                # Listings app
+├── listing/                 # Listings app
 │   ├── migrations/          # Database migrations
 │   ├── __init__.py
 │   ├── admin.py             # Admin configuration
@@ -274,7 +274,7 @@ Run the test suite:
 python manage.py test
 
 # Run tests for specific app
-python manage.py test listings
+python manage.py test listing
 
 # Run tests with coverage
 coverage run --source='.' manage.py test
