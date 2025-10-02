@@ -1,4 +1,3 @@
-
 # ALX Travel App 0x01
 
 A comprehensive Django-based travel listing platform with robust API documentation and database configuration.
@@ -354,6 +353,3 @@ If you encounter any issues or have questions:
 ---
 
 For more information about the ALX Software Engineering Program, visit [ALX](https://www.alxafrica.com/).
-#   a l x _ t r a v e l _ a p p _ 0 x 0 1 
- 
- 
